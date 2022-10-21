@@ -1,15 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-:root {
-  --background:white;
-  --text:black;
-}
 * {
   box-sizing: border-box;
 }
 
 body {
-  background-color:var(--background) ;
+  background-color: #483838;
+  max-height: 100vh;
   font-family: 'Roboto', sans-serif;
   margin: 0;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+
+svg {
+  box-shadow: 10px 10px 5px 5px;
+  background-color: white;
+}
+
+
+.hoverInfo{
+  position : absolute;
+  padding : 4px;
+  background-color : white;
+  border: 1px solid black;
+  color:#000;
 }
